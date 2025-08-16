@@ -20,7 +20,7 @@ with open(raw_csv, newline="", encoding="utf-8") as rawfile, \
      open(tags_csv, "w", newline="", encoding="utf-8") as tagfile:
 
     # Reads the rawfile into a dictionary
-    reader = csv.DictReader(infile)
+    reader = csv.DictReader(rawfile)
     pub_writer = csv.writer(pubfile)
     tag_writer = csv.writer(tagfile)
 
