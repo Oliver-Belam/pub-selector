@@ -7,20 +7,30 @@ db_path = Path("pubs.db")
 pubs_csv = Path("data/pubs.csv")
 tags_csv = Path("data/tags.csv")
 
-# Create the tables if they have not already been made
+# Create tables
 def create_tables():
     with sqlite3.connect(db_path) as conn:
         c = conn.cursor()
+
         c.execute("""
-        CREATE TABLE IF NOT EXISTS pubs (
+        DROP TABLE IF EXISTS pubs;
+        """)
+
+        c.execute("""
+                DROP TABLE IF EXISTS tags;
+        """)
+
+        c.execute("""
+        CREATE TABLE pubs (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT UNIQUE NOT NULL
         );
         """)
+
         c.execute("""
-        CREATE TABLE IF NOT EXISTS tags (
+        CREATE TABLE tags (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            pub_id INTEGER NOT NULL
+            pub_id INTEGER NOT NULL,
             tags TEXT NOT NULL,
             FOREIGN KEY (pub_id) REFERENCES pubs (id)
         );
@@ -35,18 +45,17 @@ def load_csv():
         # Load pubs
         with open(pubs_csv, newline='', encoding ="utf-8") as f:
             reader = csv.reader(f)
+            next(reader)
             for row in reader:
-                c.execute("INSERT OR IGNORE INTO pubs (name) VALUES (?);", (row[0],))
+                c.execute("INSERT OR IGNORE INTO pubs (name) VALUES (?);", (row[1],))
 
         # Load tags
         with open(tags_csv, newline='', encoding="utf-8") as f:
             reader = csv.reader(f)
+            next(reader)
             for row in reader:
-                pub_name, tag = row
-                c.execute("SELECT id FROM pubs WHERE name=?;", (pub_name,))
-                result = c.fetchone()
-                if result:
-                    c.execute("INSERT INTO tags (pub_id, tag) VALUES (?, ?);", (result[0], tag))
+                pub_id, tags = row
+                c.execute("INSERT OR IGNORE INTO tags (pub_id, tags) VALUES (?, ?);", (pub_id, tags))
     conn.commit()
 
 if __name__ == "__main__":

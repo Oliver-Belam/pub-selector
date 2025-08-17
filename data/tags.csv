@@ -1,53 +1,52 @@
 pub_id,tag
-1,tags
-2,Gone
-5,Coctails
-6,Cocktails
+1,Gone
+4,Coctails
+5,Cocktails
+6,IPAs
+6,Sports
 7,IPAs
-7,Sports
-8,IPAs
-9,Beer Garden
-13,Student
-14,Kitchen
-15,Cocktails
-15,Happy hour
+8,Beer Garden
+12,Student
+13,Kitchen
+14,Cocktails
+14,Happy hour
+15,Beer Garden
 16,Beer Garden
-17,Beer Garden
-20,Dancefloor
-26,Irish
-26,Sports
-27,Cocktails
-31,IPAs
-32,Dancefloor
-32,Cocktails
-32,Happy hour
-32,Beer Garden
-35,Beer Garden
-39,Dancefloor
+19,Dancefloor
+25,Irish
+25,Sports
+26,Cocktails
+30,IPAs
+31,Dancefloor
+31,Cocktails
+31,Happy hour
+31,Beer Garden
+34,Beer Garden
+38,Dancefloor
+38,Student
+39,Sports
 39,Student
-40,Sports
-40,Student
-41,Riverside
-43,Beer Garden
-45,IPAs
-49,Student
-49,Beer Garden
-49,Sports
-51,Cocktails
-51,Late
-54,Live Music
-62,Live Music
-66,Student
-66,Dancefloor
-66,Riverside
-67,Gone
-74,Student
-74,Sports
-74,Beer Garden
-78,Beer Garden
-80,Beer Garden
-87,Beer Garden
-88,Student
-90,Riverside
-95,IPAs
-95,Live Music
+40,Riverside
+42,Beer Garden
+44,IPAs
+48,Student
+48,Beer Garden
+48,Sports
+50,Cocktails
+50,Late
+53,Live Music
+61,Live Music
+65,Student
+65,Dancefloor
+65,Riverside
+66,Gone
+73,Student
+73,Sports
+73,Beer Garden
+77,Beer Garden
+79,Beer Garden
+86,Beer Garden
+87,Student
+89,Riverside
+94,IPAs
+94,Live Music

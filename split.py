@@ -27,6 +27,7 @@ with open(raw_csv, newline="", encoding="utf-8") as rawfile, \
     # Write the headers
     pub_writer.writerow(["pub_id", "pub_name"])
     tag_writer.writerow(["pub_id", "tag"])
+    next(reader, None)
 
     # Enumerate gives each pub a unique ID starting at 1
     for pub_id, row in enumerate(reader, start=1):
