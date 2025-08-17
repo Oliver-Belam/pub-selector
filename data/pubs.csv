@@ -1,98 +1,99 @@
 pub_id,pub_name
-1,13 31
-2,Blue Boar
-3,BlueBell
-4,Bobos
-5,Bora Bora
-6,Brew York (Walmgate)
-7,BrewYork (Osbaldwick)
-8,Charles XII
-9,Cock and Bottle
-10,Cozy Club
-11,Cross Keys
-12,D-Bar
-13,Dough Eyed
-14,Dusk
-15,Fossgate Social
-16,Golden Fleece
-17,Harkers
-18,Hole in the Wall
-19,Kennedys*
-20,Kings Arms
-21,Last Drop inn
-22,Lendal Cellars
-23,Lils Bar and Bistro*
-24,Museum Street Tavern
-25,O’Neills
-26,Pic Tap
-27,Plonkers
-28,Posterngate Spoons
-29,Punch Bowl
-30,Pívni
-31,Revolution
-32,Roman Baths
-33,Rook and Gaskell
-34,Rose and Crown
-35,Social Lounge @ 8’o clock
-36,Soltanos
-37,Spoons Punchball
-38,Stone Roses +
-39,Stonebow
-40,Tank and Paddle
-41,The Angel on the Green
-42,The Artful Dodger
-43,The Bootham Tavern
-44,The BrewDog
-45,The Burns Hotel
-46,The Chopping Block
-47,The Corner Pin
-48,The Courtyard
-49,The Deramore Arms
-50,The Drawing Board
-51,The Duke of York
-52,The Eagle and Child
-53,The Edinburgh Arms
-54,The Exhibition*
-55,The Fat Badger
-56,The Fulford Arms
-57,The Gillygate
-58,The Golden Ball
-59,The Golden Lion
-60,The Habit
-61,The Hop
-62,The House of the Trembling Madness
-63,The Kings Inn
-64,The Lighthorseman
-65,The Lowther
-66,The Maltings*
-67,The Market Cat Tavern
-68,The Masons Arms
-69,The Micklegate
-70,The Micklegate Social* +
-71,The Mount
-72,The Nags Head
-73,The Old Bank
-74,The Old Star Inn  (Centre)
-75,The Old White Swan
-76,The Pavement Vaults
-77,The Phoneix*
-78,The Priory
-79,The Red Lion
-80,The Shambles Tavern
-81,The Slip Inn
-82,The Snickleway
-83,The Swan
-84,The Terrace
-85,The Three Cranes
-86,The Three Tons
-87,The Vanbrugh Arms
-88,The Victoria
-89,The Waterfront
-90,The White Horse
-91,The Windmill
-92,The Winning Post
-93,The York Tap (station)
-94,Valhalla
-95,Victors Bar
-96,Waggon and Horses
-97,Watergate
+1,name
+2,13 31
+3,Blue Boar
+4,BlueBell
+5,Bobos
+6,Bora Bora
+7,Brew York (Walmgate)
+8,BrewYork (Osbaldwick)
+9,Charles XII
+10,Cock and Bottle
+11,Cozy Club
+12,Cross Keys
+13,D-Bar
+14,Dough Eyed
+15,Dusk
+16,Fossgate Social
+17,Golden Fleece
+18,Harkers
+19,Hole in the Wall
+20,Kennedys*
+21,Kings Arms
+22,Last Drop inn
+23,Lendal Cellars
+24,Lils Bar and Bistro*
+25,Museum Street Tavern
+26,O’Neills
+27,Pic Tap
+28,Plonkers
+29,Posterngate Spoons
+30,Punch Bowl
+31,Pívni
+32,Revolution
+33,Roman Baths
+34,Rook and Gaskell
+35,Rose and Crown
+36,Social Lounge @ 8’o clock
+37,Soltanos
+38,Spoons Punchball
+39,Stone Roses +
+40,Stonebow
+41,Tank and Paddle
+42,The Angel on the Green
+43,The Artful Dodger
+44,The Bootham Tavern
+45,The BrewDog
+46,The Burns Hotel
+47,The Chopping Block
+48,The Corner Pin
+49,The Courtyard
+50,The Deramore Arms
+51,The Drawing Board
+52,The Duke of York
+53,The Eagle and Child
+54,The Edinburgh Arms
+55,The Exhibition*
+56,The Fat Badger
+57,The Fulford Arms
+58,The Gillygate
+59,The Golden Ball
+60,The Golden Lion
+61,The Habit
+62,The Hop
+63,The House of the Trembling Madness
+64,The Kings Inn
+65,The Lighthorseman
+66,The Lowther
+67,The Maltings*
+68,The Market Cat Tavern
+69,The Masons Arms
+70,The Micklegate
+71,The Micklegate Social* +
+72,The Mount
+73,The Nags Head
+74,The Old Bank
+75,The Old Star Inn  (Centre)
+76,The Old White Swan
+77,The Pavement Vaults
+78,The Phoneix*
+79,The Priory
+80,The Red Lion
+81,The Shambles Tavern
+82,The Slip Inn
+83,The Snickleway
+84,The Swan
+85,The Terrace
+86,The Three Cranes
+87,The Three Tons
+88,The Vanbrugh Arms
+89,The Victoria
+90,The Waterfront
+91,The White Horse
+92,The Windmill
+93,The Winning Post
+94,The York Tap (station)
+95,Valhalla
+96,Victors Bar
+97,Waggon and Horses
+98,Watergate
